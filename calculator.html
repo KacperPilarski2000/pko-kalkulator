@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake PKO currency calculator
+        
+    </title>
+    <script defer src="engine.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nightSite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" >
+</head>
+
+<body class="body js-body">
+    <header><img width="120" height="50" srcset="https://www.pkobp.pl/api/public/c99ad9fe-9aeb-40dc-a725-a3c7d35c7a10.png" alt="pko logo"></header>
+    <form class="from js-form">
+        <fieldset class="form__filedset">
+            <legend class="form__legend">Kalkulator walut</legend>
+            <p>
+                <label class="form__element" for="euro">Wymieniam:</label>
+                <input  id="euro" class="js-euro" type="number" placeholder="€" min="1">
+            </p>
+            <p>
+                <label class="form__element" for="PLN">Aktualny kurs:</label>
+                <input maxlength="15" id="PLN" type="text" value="4.46 PLN" readonly>
+            </p>
+            <p><input class="form__button js-button" type="submit" value="Oblicz"></p>
+        </fieldset>
+        <p>Aktualny kurs:<strong class="js-result"> N/A</strong> PLN</p>
+    </form>
+    <p>
+        <button class="button1 js-button1">włącz <span class="js-variable">ciemny</span> motyw</button>
+    </p>
+   <footer class="footer">zródło:https://www.pkobp.pl/api/public/c99ad9fe-9aeb-40dc-a725-a3c7d35c7a10.png</footer>
+</body>
+
+</html>

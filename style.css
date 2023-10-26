@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+    font-family: "M PLUS Code Latin", sans-serif;
+}
+
+.form {
+    padding: 16px;
+}
+
+.form__legend {
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(258, 17%, 80%);
+    border-radius: 10px;
+    padding: 2px;
+    background-color: hsl(258, 17%, 80%);
+    padding: 2px;
+    border: 1px solid hsl(0, 0%, 0%);
+}
+
+.form__button {
+    border-radius: 10px;
+    background-color: hsl(258, 17%, 80%);
+    cursor: pointer;
+}
+
+.form__button:hover {
+    border-radius: 10px;
+    background-color: hsl(260, 51%, 70%);
+    cursor: pointer;
+}
+
+.button1 {
+    border-radius: 10px;
+    background-color: hsl(258, 17%, 80%);
+    cursor: pointer;
+
+}
+
+.button1:hover {
+    border-radius: 10px;
+    background-color: hsl(260, 51%, 70%);
+    cursor: pointer;
+}
+
+.form__filedset {
+    border-radius: 10px;
+    background-color: hsl(271, 97%, 70%);
+    max-width: 400px;
+    min-width: 270px;
+
+}
+
+.form__element {
+    color: #000;
+    background-color: hsl(258, 17%, 80%);
+    padding: 2px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 10px;
+}
+
+.body {
+    color: hsl(0, 0%, 0%);
+
+    padding: 16px;
+
+}
+
+.footer {
+    font-size: 10px;
+}
