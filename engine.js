@@ -7,6 +7,7 @@ let button = document.querySelector(".js-button");
 let button1 = document.querySelector(".js-button1")
 let body = document.querySelector(".js-body");
 let variable = document.querySelector(".js-variable");
+let image = document.querySelector(".js-image")
 let ratePLN = 4.46;
 
 
