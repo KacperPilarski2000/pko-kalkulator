@@ -1,31 +1,32 @@
-
-let euroElement = document.querySelector(".js-euro");
 let formElement = document.querySelector(".js-form");
-
+let amountElement = document.querySelector(".js-amount");
+let currencyElement = document.querySelector(".js-currency");
+let buttonElement = document.querySelector(".js-button");
 let resultElement = document.querySelector(".js-result");
-let button = document.querySelector(".js-button");
-let button1 = document.querySelector(".js-button1")
-let body = document.querySelector(".js-body");
-let variable = document.querySelector(".js-variable");
-let image = document.querySelector(".js-image")
-let ratePLN = 4.46;
 
+let rateGBP = 4.98;
+let rateEUR = 4.35;
+let rateDolar = 3.98;
 
+formElement.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let amount = +amountElement.value;
+  let currency = currencyElement.value;
 
-formElement.addEventListener("click", (event) => {
-    event.preventDefault(event);
+  let result;
+  switch (currency) {
+    case "GBP":
+      result = amount / rateGBP;
+      break;
 
+    case "EUR":
+      result = amount / rateEUR;
+      break;
 
-    let euro = euroElement.value;
+    case "Dolar":
+      result = amount / rateDolar;
+      break;
+  }
 
-    let result = ratePLN * euro;
-    resultElement.innerHTML = result.toFixed(2);
+  resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
 });
-
-button1.addEventListener("click", (event) => {
-
-    event.preventDefault(event);
-    body.classList.toggle("body--dark");
-    variable.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
-});
-
