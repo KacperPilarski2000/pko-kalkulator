@@ -30,13 +30,13 @@
       <fieldset class="form__filedset">
         <legend class="form__legend">Kalkulator walut</legend>
         <p>
-          <label class="form__element ja-amout" for="PLN">Wymieniam:</label>
-          <input placeholder="PLN*" id="PLN" type="number" required/>
+          <label class="form__element" for="PLN">Wymieniam:</label>
+          <input class ="js-amount" placeholder="PLN*" id="PLN" type="number" required />
         </p>
 
         <p>
-          <label class="form__element js-currency" for="value">Waluta:</label>
-          <select id="value">
+          <label class="form__element" for="value">Waluta:</label>
+          <select class=" js-currency" id="value">
             <option value="GBP">GBP</option>
             <option value="EUR">EUR</option>
             <option value="Dolar">Dolar</option>
@@ -65,11 +65,11 @@
           </tr>
         </table>
       </fieldset>
-      <p class="js-result"></p>
+      <p class="js-result result"></p>
     </form>
     <p>
-      <button class="button1">
-        włącz <span class="">ciemny</span> motyw
+      <button class="buttonDayNight js-buttonDayNight">
+        włącz <span class="js-dayNightVariable">ciemny</span> motyw
       </button>
     </p>
     <footer class="footer">
