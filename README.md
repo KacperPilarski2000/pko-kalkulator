@@ -9,8 +9,8 @@
 
 ![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0)
 
-1. type PLN amount.
+2. type PLN amount.
  
 ![exchange result](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c)
-1. press "oblicz" button, and receive the exchange result. 
+3. press "oblicz" button, and receive the exchange result. 
 
