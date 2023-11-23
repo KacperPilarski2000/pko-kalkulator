@@ -6,6 +6,6 @@
 ## use presentation :
 
 1. <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/3eba427d-15df-4fbe-adb7-5581c6a305d5" width=500 height=300/> 
-3.  ![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0) 
-4.  ![exchange result](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c)
+3.  <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0" width=500 height=300/>
+4. <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c" width=500 height=300/>
 
