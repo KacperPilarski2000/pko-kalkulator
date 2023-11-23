@@ -4,8 +4,10 @@
 ## a button that changes the background to day and night.
 ![ezgif com-video-to-gif](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/69cde379-32fc-450f-9696-78d06f1bcace)
 ## instruction how to use:
+
 1. choose the currency
 ![choose currency](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/3eba427d-15df-4fbe-adb7-5581c6a305d5)
+
 1. type PLN amount 
 ![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0)
 
