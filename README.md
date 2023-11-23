@@ -6,7 +6,6 @@
 ## instruction how to use:
 ![choose currency](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/3eba427d-15df-4fbe-adb7-5581c6a305d5)
 1. choose the currency. 
-
 ![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0)
 
 2. type PLN amount.
