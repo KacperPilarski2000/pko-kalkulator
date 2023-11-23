@@ -8,9 +8,9 @@
 1. choose the currency. 
 ![choose currency](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/3eba427d-15df-4fbe-adb7-5581c6a305d5)
 
-1. type PLN amount. ![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0)
+1. type PLN amount. 
+![type amount PLN](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0)
 
-
-1. press "oblicz" button, and receive the exchange result. ![exchange result](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c)
-
+1. press "oblicz" button, and receive the exchange result. 
+![exchange result](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c)
 
