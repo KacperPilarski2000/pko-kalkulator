@@ -42,3 +42,7 @@
     elementDayNightVariable.innerText = elementBody.classList.contains("body--dark") ? "jasny" : "ciemny";
   });
 
+
+formElement.addEventListener("click", () => {
+resultElement.classList.toggle("result");
+});
