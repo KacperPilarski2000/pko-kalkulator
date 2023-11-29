@@ -2,6 +2,8 @@ let formElement = document.querySelector(".js-form");
 let amountElement = document.querySelector(".js-amount");
 let currencyElement = document.querySelector(".js-currency");
 let resultElement = document.querySelector(".js-result");
+let currency = currencyElement.value;
+
 
 let rateGBP = 4.98;
 let rateEUR = 4.35;
@@ -26,10 +28,10 @@ formElement.addEventListener("submit", (event) => {
       result = amount / rateDolar;
       break;
   }
-
-  resultElement.innerHTML = `${amount.toFixed(
+  
+  resultElement.innerHTML = resultElement.classList.contains("result")?`${amount.toFixed(
     2
-  )} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`;
+  )} PLN = <strong>${result.toFixed(2)} ${currency}</strong>`
 });
 let calculatButton = document.querySelector(".js-button");
 let elementButton = document.querySelector(".js-buttonDayNight");
@@ -48,3 +50,4 @@ elementButton.addEventListener("click", () => {
 calculatButton.addEventListener("click", () => {
   resultElement.classList.toggle("result");
 });
+.addEventListener
