@@ -50,4 +50,3 @@ elementButton.addEventListener("click", () => {
 calculatButton.addEventListener("click", () => {
   resultElement.classList.toggle("result");
 });
-.addEventListener
