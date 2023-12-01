@@ -29,6 +29,7 @@ const dayNightEffect = (event) => {
     : "ciemny";
 };
 
+<<<<<<< HEAD
 const resultUpdateText = (amount, result, currency) => {
   const resultElement = document.querySelector(".js-result");
 
@@ -62,3 +63,8 @@ const init = () => {
 
 init();
 init2();
+=======
+calculatButton.addEventListener("click", () => {
+  resultElement.classList.toggle("result");
+});
+>>>>>>> 69356d2a9a3f8bfb62417c9829a346a78a6459f7
