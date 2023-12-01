@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fake PKO currency calculator</title>
-    <meta property="og:imge" content="photosy/umyj łeb.png" />
     <script defer src="engine.js"></script>
     <link rel="icon" href="photosy/Icone.png" />
     <link rel="stylesheet" href="style.css" />
@@ -31,12 +30,19 @@
         <legend class="form__legend">Kalkulator walut</legend>
         <p>
           <label class="form__element" for="PLN">Wymieniam:</label>
-          <input class ="js-amount" placeholder="PLN*" id="PLN" type="number" required />
+          <input
+            class="js-amount"
+            placeholder="PLN*"
+            id="PLN"
+            type="number"
+            step="any"
+            required
+          />
         </p>
 
         <p>
           <label class="form__element" for="value">Waluta:</label>
-          <select class=" js-currency" id="value">
+          <select class="js-currency" id="value">
             <option value="GBP">GBP</option>
             <option value="EUR">EUR</option>
             <option value="Dolar">Dolar</option>
@@ -47,7 +53,7 @@
         </p>
       </fieldset>
       <fieldset class="fieldset">
-        <table class="table">
+        <table>
           <caption>
             Aktualny Kurs:
           </caption>
