@@ -8,7 +8,7 @@
 1. Choose currency
 <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/3eba427d-15df-4fbe-adb7-5581c6a305d5" width=500 height=300/>
 
-2. Type value
+2. Enter value
 <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0" width=500 height=300/>
 
 3. Press button and get result
