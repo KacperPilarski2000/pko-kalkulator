@@ -2,19 +2,17 @@
 <img src="https://www.pkobp.pl/api/public/c99ad9fe-9aeb-40dc-a725-a3c7d35c7a10.png" width=280 height=130/>ㅤ
 ## site [demo](https://kacperpilarski2000.github.io/pko-kalkulator/calculator.html)
 ## a button that changes the background to day and night.
-![ezgif com-video-to-gif](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/69cde379-32fc-450f-9696-78d06f1bcace)
+![ezgif com-video-to-gif](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/ebc44e4a-4788-4598-9e60-023538ed9aaf)
 ## use presentation :
 
 1. Choose currency
 <img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/2ccd9f3e-e4d0-4c8d-8ad6-7356b710ffb0" width=500 height=300/>
 
-![enter value]()
-
 2. Enter value
-<img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/d4b438c0-36ca-431c-8896-0df868b1efc0" width=500 height=300/>
+<img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/2f51de2f-e156-4c15-a5a8-ffdddb0d1f74" width=500 height=300/>
 
 3. Press button and get result
-<img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/657b5751-8fdd-46aa-a1eb-94ba1c7fc05c" width=500 height=300/>
+<img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/f288cfee-4354-4074-9ebe-6a3f41de8023" width=500 height=300/>
 
 
 ## Languages and Tools used in this project:
