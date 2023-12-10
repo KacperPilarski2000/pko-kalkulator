@@ -9,39 +9,25 @@ html {
   font-family: "M PLUS Code Latin", sans-serif;
 }
 
-
-
-
-
-.buttonDayNight {
+.MainElement {
+  background: hsl(147, 25%, 65%);
+  padding: 10px;
   border-radius: 10px;
-  background-color: hsl(258, 17%, 80%);
-  cursor: pointer;
+  border: 1px solid black;
+
 }
-
-.buttonDayNight:hover {
-  border-radius: 10px;
-  background-color: hsl(260, 51%, 70%);
-  cursor: pointer;
-}
-
-
-.fieldset {
-  border: 1px solid hsl(0, 0%, 0%);
-  border-radius: 10px;
-  max-width: 120px;
-  background-color: hsl(258, 17%, 80%);;
-}
-
-
-
 .body {
   color: hsl(0, 0%, 0%);
   padding: 16px;
-  background-image: url("photosy/bank.jpg");
+  height: 900px;
+  background-image: url("photosy/money-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .pharagraph {
@@ -59,6 +45,7 @@ html {
   max-width: 120px;
   margin-bottom: 10px;
 
+
 }
 
 .footer {
@@ -68,6 +55,9 @@ html {
   background-color: hsl(260, 51%, 70%);
   max-width: 400px;
   padding: 2px;
+ 
+
+ 
 }
 .result {
   max-width: 300px;
@@ -75,4 +65,16 @@ html {
   border-radius: 10px;
   padding-left: 5px;
   border: 1px solid hsl(0, 0%, 0%);
+}
+.buttonDayNight {
+  border-radius: 10px;
+  background-color: hsl(258, 17%, 80%);
+  cursor: pointer;
+ 
+}
+
+.buttonDayNight:hover {
+  border-radius: 10px;
+  background-color: hsl(260, 51%, 70%);
+  cursor: pointer;
 }
