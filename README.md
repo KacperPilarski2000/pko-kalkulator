@@ -2,7 +2,7 @@
 <img src="https://www.pkobp.pl/api/public/c99ad9fe-9aeb-40dc-a725-a3c7d35c7a10.png" width=280 height=130/>ㅤ
 ## site [demo](https://kacperpilarski2000.github.io/pko-kalkulator/calculator.html)
 ## a button that changes the background to day and night.
-![ezgif com-video-to-gif](https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/ebc44e4a-4788-4598-9e60-023538ed9aaf)
+<img src="https://github.com/KacperPilarski2000/pko-kalkulator/assets/149115548/ebc44e4a-4788-4598-9e60-023538ed9aaf" width=500 height=300/>
 ## use presentation :
 
 1. Choose currency
