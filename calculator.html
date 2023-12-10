@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fake PKO currency calculator</title>
+    <meta property="og:image" content="photosy/Calculator.png">
+    <script defer src="engine.js"></script>
+    <link rel="icon" href="photosy/Icone.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nightSite.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+  </head>
+
+  <body class="body js-body">
+    <header class="image">
+      <img
+        width="120"
+        height="50"
+        src="photosy/logo-PKO.png"
+        alt="pko logo"
+      />
+    </header>
+    <form class="from js-form">
+      <fieldset class="form__filedset">
+        <legend class="form__legend">Kalkulator walut</legend>
+        <p>
+          <label class="form__element" for="PLN">Wymieniam:</label>
+          <input
+            class="js-amount"
+            placeholder="PLN*"
+            id="PLN"
+            type="number"
+            step="any"
+            required
+          />
+        </p>
+
+        <p>
+          <label class="form__element" for="value">Waluta:</label>
+          <select class="js-currency" id="value">
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="Dolar">Dolar</option>
+          </select>
+        </p>
+        <p>
+          <input class="form__button js-button" type="submit" value="Oblicz" />
+        </p>
+      </fieldset>
+      <fieldset class="fieldset">
+        <table>
+          <caption>
+            Aktualny Kurs:
+          </caption>
+          <tr>
+            <th class="section__tableCell">GBP:</th>
+            <td class="section__tableCell">4.98PLN</td>
+          </tr>
+          <tr>
+            <th class="section__tableCell">EUR:</th>
+            <td class="section__tableCell">4.35PLN</td>
+          </tr>
+          <tr>
+            <th class="section__tableCell">Dolar:</th>
+            <td class="section__tableCell">3.98PLM</td>
+          </tr>
+        </table>
+      </fieldset>
+      <p class="js-result"></p>
+    </form>
+    <p>
+      <button class="buttonDayNight js-buttonDayNight">
+        włącz <span class="js-dayNightVariable">ciemny</span> motyw
+      </button>
+    </p>
+    <footer class="footer">
+      zródło:https://www.pkobp.pl/api/public/c99ad9fe-9aeb-40dc-a725-a3c7d35c7a10.png
+    </footer>
+  </body>
+</html>

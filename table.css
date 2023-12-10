@@ -1,0 +1,10 @@
+.table {
+    border-collapse: collapse;
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+  }
+  .teble__tableCell {
+    border: 2px solid hsl(219, 28%, 25%);
+    padding: 15px;
+  }

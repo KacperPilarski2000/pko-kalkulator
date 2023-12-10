@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+
+
+
+
+
+.buttonDayNight {
+  border-radius: 10px;
+  background-color: hsl(258, 17%, 80%);
+  cursor: pointer;
+}
+
+.buttonDayNight:hover {
+  border-radius: 10px;
+  background-color: hsl(260, 51%, 70%);
+  cursor: pointer;
+}
+
+
+.fieldset {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  max-width: 120px;
+  background-color: hsl(258, 17%, 80%);;
+}
+
+
+
+.body {
+  color: hsl(0, 0%, 0%);
+  padding: 16px;
+  background-image: url("photosy/bank.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pharagraph {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  background-color: hsl(260, 51%, 70%);
+  max-width: 190px;
+  padding: 2px;
+}
+
+.image {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  background-color: hsl(258, 17%, 80%);
+  max-width: 120px;
+  margin-bottom: 10px;
+
+}
+
+.footer {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  font-size: 10px;
+  background-color: hsl(260, 51%, 70%);
+  max-width: 400px;
+  padding: 2px;
+}
+.result {
+  max-width: 300px;
+  background-color: hsl(260, 51%, 70%);
+  border-radius: 10px;
+  padding-left: 5px;
+  border: 1px solid hsl(0, 0%, 0%);
+}
