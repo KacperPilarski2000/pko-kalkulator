@@ -2,6 +2,8 @@
     padding:16px;
     margin:80px auto;
     width: 50%;
+    align-self: flex-start;
+    
 }
 .form__legend {
   color: hsl(0, 0%, 0%);
@@ -38,3 +40,11 @@
   border: 1px solid hsl(0, 0%, 0%);
   border-radius: 10px;
 }
+.fieldset {
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 10px;
+  max-width: 120px;
+  background-color: hsl(258, 17%, 80%);
+
+}
+
